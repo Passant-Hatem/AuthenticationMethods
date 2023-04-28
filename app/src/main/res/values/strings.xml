@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AuthenticationMethods</string>
+<!--    todo remove it before push it -->
+    <string name="web_client_id">947124560487-det7qeu50d3o99ds5u9nr1dnm3q2dnlq.apps.googleusercontent.com</string>
 </resources>
