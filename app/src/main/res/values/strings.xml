@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">AuthenticationMethods</string>
-<!--    todo remove it before push it -->
+    <!--    todo remove it before push it -->
     <string name="web_client_id">947124560487-det7qeu50d3o99ds5u9nr1dnm3q2dnlq.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">232979396078803</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">47188fb95178bbc5f755d9418c1b4794</string>
+    <string name="title_activity_facebook_authentication">FacebookAuthentication</string>
+    <string name="title_activity_google_sign_in">GoogleSignInActivity</string>
+
 </resources>

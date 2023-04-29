@@ -1,4 +1,4 @@
-package com.example.authenticationmethods.google_authentication.presentation
+package com.example.authenticationmethods.google_authentication.presentation.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
