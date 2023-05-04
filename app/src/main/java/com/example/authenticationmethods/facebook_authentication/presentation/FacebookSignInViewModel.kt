@@ -1,4 +1,4 @@
-package com.example.authenticationmethods.facebook_authentication.presentation;
+package com.example.authenticationmethods.facebook_authentication.presentation
 
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
