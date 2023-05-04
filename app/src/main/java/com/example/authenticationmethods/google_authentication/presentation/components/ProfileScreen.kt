@@ -9,11 +9,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.example.authenticationmethods.R
 import com.example.authenticationmethods.google_authentication.presentation.model.UserData
 
 @Composable
@@ -30,6 +32,7 @@ fun ProfileScreen(
             AsyncImage(
                 model = userData.profilePictureUrl,
                 contentDescription = "Profile picture",
+                placeholder = painterResource(id = R.drawable.loading),
                 modifier = Modifier
                     .size(150.dp)
                     .clip(CircleShape),
